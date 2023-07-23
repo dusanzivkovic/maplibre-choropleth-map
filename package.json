@@ -1,0 +1,30 @@
+{
+  "name": "maplibre-choropleth-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dusanzivkovic/maplibre-choropleth-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dusanzivkovic/maplibre-choropleth-map/issues"
+  },
+  "homepage": "https://github.com/dusanzivkovic/maplibre-choropleth-map#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "maplibre-gl": "^3.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
+    "parcel-transformer-geojson": "^0.0.4"
+  }
+}
